@@ -11,6 +11,19 @@ main {
   margin: 0 auto;
   padding: 2rem 1rem;
 }
+
+.location {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.location-img, .map-img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  background: #f8f8f8;
+}
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
